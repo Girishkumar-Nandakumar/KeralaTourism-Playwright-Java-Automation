@@ -1,0 +1,2294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="117" passed="102" failed="9" skipped="6">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-08T20:27:33 IST" name="KeralaTourismSuite" finished-at="2025-11-08T20:34:10 IST" duration-ms="396576">
+    <groups>
+      <group name="Responsive">
+        <method signature="ResponsiveUITesting.verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@43bc63a3]" name="verifyResponsiveLayouts" class="keralaTourismAutomationPlaywrightJava.ResponsiveUITesting"/>
+        <method signature="ResponsiveUITesting.verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@247bddad]" name="verifyResponsiveLayouts" class="keralaTourismAutomationPlaywrightJava.ResponsiveUITesting"/>
+        <method signature="ResponsiveUITesting.verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@77f1baf5]" name="verifyResponsiveLayouts" class="keralaTourismAutomationPlaywrightJava.ResponsiveUITesting"/>
+      </group> <!-- Responsive -->
+      <group name="FormValidation">
+        <method signature="FormValidationRefactored.loginBothEmptyFields()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" name="loginBothEmptyFields" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.loginEmptyEmail()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" name="loginEmptyEmail" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.loginEmptyPassword()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" name="loginEmptyPassword" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.loginInvalidEmail()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" name="loginInvalidEmail" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.loginInvalidPassword()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" name="loginInvalidPassword" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.signupEmptyEmail()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" name="signupEmptyEmail" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.signupEmptyName()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" name="signupEmptyName" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.signupEmptyPassword1()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" name="signupEmptyPassword1" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.signupEmptyPassword2()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" name="signupEmptyPassword2" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.signupPasswordMismatch()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" name="signupPasswordMismatch" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.loginBothEmptyFields()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" name="loginBothEmptyFields" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.loginEmptyEmail()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" name="loginEmptyEmail" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.loginEmptyPassword()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" name="loginEmptyPassword" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.loginInvalidEmail()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" name="loginInvalidEmail" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.loginInvalidPassword()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" name="loginInvalidPassword" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.signupEmptyEmail()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" name="signupEmptyEmail" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.signupEmptyName()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" name="signupEmptyName" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.signupEmptyPassword1()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" name="signupEmptyPassword1" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.signupEmptyPassword2()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" name="signupEmptyPassword2" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.signupPasswordMismatch()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" name="signupPasswordMismatch" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.loginBothEmptyFields()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" name="loginBothEmptyFields" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.loginEmptyEmail()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" name="loginEmptyEmail" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.loginEmptyPassword()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" name="loginEmptyPassword" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.loginInvalidEmail()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" name="loginInvalidEmail" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.loginInvalidPassword()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" name="loginInvalidPassword" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.signupEmptyEmail()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" name="signupEmptyEmail" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.signupEmptyName()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" name="signupEmptyName" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.signupEmptyPassword1()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" name="signupEmptyPassword1" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.signupEmptyPassword2()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" name="signupEmptyPassword2" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+        <method signature="FormValidationRefactored.signupPasswordMismatch()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" name="signupPasswordMismatch" class="keralaTourismAutomationPlaywrightJava.FormValidationRefactored"/>
+      </group> <!-- FormValidation -->
+      <group name="E2E">
+        <method signature="E2EUserJourney.verifyHomePageTitle()[pri:1, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@5b12b668]" name="verifyHomePageTitle" class="keralaTourismAutomationPlaywrightJava.E2EUserJourney"/>
+        <method signature="E2EUserJourney.performSignUp()[pri:2, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@5b12b668]" name="performSignUp" class="keralaTourismAutomationPlaywrightJava.E2EUserJourney"/>
+        <method signature="E2EUserJourney.exploreDistricts()[pri:3, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@5b12b668]" name="exploreDistricts" class="keralaTourismAutomationPlaywrightJava.E2EUserJourney"/>
+        <method signature="E2EUserJourney.performLogin()[pri:3, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@5b12b668]" name="performLogin" class="keralaTourismAutomationPlaywrightJava.E2EUserJourney"/>
+        <method signature="E2EUserJourney.verifyHomePageTitle()[pri:1, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@7770f470]" name="verifyHomePageTitle" class="keralaTourismAutomationPlaywrightJava.E2EUserJourney"/>
+        <method signature="E2EUserJourney.performSignUp()[pri:2, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@7770f470]" name="performSignUp" class="keralaTourismAutomationPlaywrightJava.E2EUserJourney"/>
+        <method signature="E2EUserJourney.exploreDistricts()[pri:3, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@7770f470]" name="exploreDistricts" class="keralaTourismAutomationPlaywrightJava.E2EUserJourney"/>
+        <method signature="E2EUserJourney.performLogin()[pri:3, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@7770f470]" name="performLogin" class="keralaTourismAutomationPlaywrightJava.E2EUserJourney"/>
+        <method signature="E2EUserJourney.verifyHomePageTitle()[pri:1, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c]" name="verifyHomePageTitle" class="keralaTourismAutomationPlaywrightJava.E2EUserJourney"/>
+        <method signature="E2EUserJourney.performSignUp()[pri:2, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c]" name="performSignUp" class="keralaTourismAutomationPlaywrightJava.E2EUserJourney"/>
+        <method signature="E2EUserJourney.exploreDistricts()[pri:3, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c]" name="exploreDistricts" class="keralaTourismAutomationPlaywrightJava.E2EUserJourney"/>
+        <method signature="E2EUserJourney.performLogin()[pri:3, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c]" name="performLogin" class="keralaTourismAutomationPlaywrightJava.E2EUserJourney"/>
+      </group> <!-- E2E -->
+      <group name="Smoke">
+        <method signature="BasicSmokeTesting.basicNavigationThroughMainMenu()[pri:2, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" name="basicNavigationThroughMainMenu" class="keralaTourismAutomationPlaywrightJava.BasicSmokeTesting"/>
+        <method signature="BasicSmokeTesting.validatingExplorePage()[pri:3, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" name="validatingExplorePage" class="keralaTourismAutomationPlaywrightJava.BasicSmokeTesting"/>
+        <method signature="BasicSmokeTesting.validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" name="validateIndividualDistrictPages" class="keralaTourismAutomationPlaywrightJava.BasicSmokeTesting"/>
+        <method signature="BasicSmokeTesting.validatingLoginPage()[pri:5, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" name="validatingLoginPage" class="keralaTourismAutomationPlaywrightJava.BasicSmokeTesting"/>
+        <method signature="BasicSmokeTesting.validatingSignupPage()[pri:5, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" name="validatingSignupPage" class="keralaTourismAutomationPlaywrightJava.BasicSmokeTesting"/>
+        <method signature="BasicSmokeTesting.basicNavigationThroughMainMenu()[pri:2, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" name="basicNavigationThroughMainMenu" class="keralaTourismAutomationPlaywrightJava.BasicSmokeTesting"/>
+        <method signature="BasicSmokeTesting.validatingExplorePage()[pri:3, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" name="validatingExplorePage" class="keralaTourismAutomationPlaywrightJava.BasicSmokeTesting"/>
+        <method signature="BasicSmokeTesting.validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" name="validateIndividualDistrictPages" class="keralaTourismAutomationPlaywrightJava.BasicSmokeTesting"/>
+        <method signature="BasicSmokeTesting.validatingLoginPage()[pri:5, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" name="validatingLoginPage" class="keralaTourismAutomationPlaywrightJava.BasicSmokeTesting"/>
+        <method signature="BasicSmokeTesting.validatingSignupPage()[pri:5, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" name="validatingSignupPage" class="keralaTourismAutomationPlaywrightJava.BasicSmokeTesting"/>
+        <method signature="BasicSmokeTesting.basicNavigationThroughMainMenu()[pri:2, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" name="basicNavigationThroughMainMenu" class="keralaTourismAutomationPlaywrightJava.BasicSmokeTesting"/>
+        <method signature="BasicSmokeTesting.validatingExplorePage()[pri:3, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" name="validatingExplorePage" class="keralaTourismAutomationPlaywrightJava.BasicSmokeTesting"/>
+        <method signature="BasicSmokeTesting.validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" name="validateIndividualDistrictPages" class="keralaTourismAutomationPlaywrightJava.BasicSmokeTesting"/>
+        <method signature="BasicSmokeTesting.validatingLoginPage()[pri:5, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" name="validatingLoginPage" class="keralaTourismAutomationPlaywrightJava.BasicSmokeTesting"/>
+        <method signature="BasicSmokeTesting.validatingSignupPage()[pri:5, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" name="validatingSignupPage" class="keralaTourismAutomationPlaywrightJava.BasicSmokeTesting"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-11-08T20:27:33 IST" name="SmokeTest with firefox" finished-at="2025-11-08T20:30:02 IST" duration-ms="148748">
+      <class name="keralaTourismAutomationPlaywrightJava.FormValidationRefactored">
+        <test-method is-config="true" signature="setup()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" started-at="2025-11-08T20:29:52 IST" name="setup" finished-at="2025-11-08T20:29:53 IST" duration-ms="1326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginBothEmptyFields()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" started-at="2025-11-08T20:29:53 IST" name="loginBothEmptyFields" finished-at="2025-11-08T20:29:54 IST" duration-ms="1377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBothEmptyFields -->
+        <test-method signature="loginEmptyEmail()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" started-at="2025-11-08T20:29:54 IST" name="loginEmptyEmail" finished-at="2025-11-08T20:29:54 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEmptyEmail -->
+        <test-method signature="loginEmptyPassword()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" started-at="2025-11-08T20:29:54 IST" name="loginEmptyPassword" finished-at="2025-11-08T20:29:55 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEmptyPassword -->
+        <test-method signature="loginInvalidEmail()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" started-at="2025-11-08T20:29:55 IST" name="loginInvalidEmail" finished-at="2025-11-08T20:29:55 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidEmail -->
+        <test-method signature="loginInvalidPassword()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" started-at="2025-11-08T20:29:55 IST" name="loginInvalidPassword" finished-at="2025-11-08T20:29:55 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidPassword -->
+        <test-method signature="signupEmptyEmail()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" started-at="2025-11-08T20:29:55 IST" name="signupEmptyEmail" finished-at="2025-11-08T20:29:56 IST" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupEmptyEmail -->
+        <test-method signature="signupEmptyName()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" started-at="2025-11-08T20:29:56 IST" name="signupEmptyName" finished-at="2025-11-08T20:29:56 IST" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupEmptyName -->
+        <test-method signature="signupEmptyPassword1()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" started-at="2025-11-08T20:29:56 IST" name="signupEmptyPassword1" finished-at="2025-11-08T20:29:56 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupEmptyPassword1 -->
+        <test-method signature="signupEmptyPassword2()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" started-at="2025-11-08T20:29:56 IST" name="signupEmptyPassword2" finished-at="2025-11-08T20:29:57 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupEmptyPassword2 -->
+        <test-method signature="signupPasswordMismatch()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" started-at="2025-11-08T20:29:57 IST" name="signupPasswordMismatch" finished-at="2025-11-08T20:29:57 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupPasswordMismatch -->
+        <test-method signature="validatingLoginForm()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" started-at="2025-11-08T20:29:57 IST" name="validatingLoginForm" finished-at="2025-11-08T20:29:57 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingLoginForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@1165b38]" started-at="2025-11-08T20:29:57 IST" name="tearDown" finished-at="2025-11-08T20:29:57 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- keralaTourismAutomationPlaywrightJava.FormValidationRefactored -->
+      <class name="keralaTourismAutomationPlaywrightJava.E2EUserJourney">
+        <test-method is-config="true" signature="setup()[pri:0, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@5b12b668]" started-at="2025-11-08T20:29:18 IST" name="setup" finished-at="2025-11-08T20:29:20 IST" duration-ms="1266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@5b12b668]" started-at="2025-11-08T20:29:20 IST" name="verifyHomePageTitle" finished-at="2025-11-08T20:29:21 IST" duration-ms="1495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method signature="performSignUp()[pri:2, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@5b12b668]" started-at="2025-11-08T20:29:21 IST" name="performSignUp" finished-at="2025-11-08T20:29:51 IST" depends-on-methods="keralaTourismAutomationPlaywrightJava.E2EUserJourney.verifyHomePageTitle" duration-ms="30144" status="FAIL">
+          <exception class="com.microsoft.playwright.TimeoutError">
+            <message>
+              <![CDATA[Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1072:23)
+    at FrameDispatcher.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator("//input[@name='email']")
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1072:23)
+    at FrameDispatcher.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator("//input[@name='email']")
+
+at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+at com.microsoft.playwright.impl.FrameImpl.fillImpl(FrameImpl.java:335)
+at com.microsoft.playwright.impl.FrameImpl.lambda$fill$14(FrameImpl.java:325)
+at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+at com.microsoft.playwright.impl.FrameImpl.fill(FrameImpl.java:325)
+at com.microsoft.playwright.impl.LocatorImpl.fill(LocatorImpl.java:250)
+at com.microsoft.playwright.Locator.fill(Locator.java:3075)
+at keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp(E2EUserJourney.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1072:23)
+    at FrameDispatcher.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator("//input[@name='email']")
+
+at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.microsoft.playwright.TimeoutError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performSignUp -->
+        <test-method signature="exploreDistricts()[pri:3, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@5b12b668]" started-at="2025-11-08T20:29:51 IST" name="exploreDistricts" finished-at="2025-11-08T20:29:51 IST" depends-on-methods="keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp" duration-ms="2" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method keralaTourismAutomationPlaywrightJava.E2EUserJourney.exploreDistricts() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@5b12b668 depends on not successfully finished methods 
+[keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@5b12b668]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method keralaTourismAutomationPlaywrightJava.E2EUserJourney.exploreDistricts() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@5b12b668 depends on not successfully finished methods 
+[keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@5b12b668]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exploreDistricts -->
+        <test-method signature="performLogin()[pri:3, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@5b12b668]" started-at="2025-11-08T20:29:51 IST" name="performLogin" finished-at="2025-11-08T20:29:51 IST" depends-on-methods="keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method keralaTourismAutomationPlaywrightJava.E2EUserJourney.performLogin() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@5b12b668 depends on not successfully finished methods 
+[keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@5b12b668]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method keralaTourismAutomationPlaywrightJava.E2EUserJourney.performLogin() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@5b12b668 depends on not successfully finished methods 
+[keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@5b12b668]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@5b12b668]" started-at="2025-11-08T20:29:51 IST" name="tearDown" finished-at="2025-11-08T20:29:52 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- keralaTourismAutomationPlaywrightJava.E2EUserJourney -->
+      <class name="keralaTourismAutomationPlaywrightJava.PerformanceTestUsingPageLoadTime">
+        <test-method is-config="true" signature="setup()[pri:0, instance:keralaTourismAutomationPlaywrightJava.PerformanceTestUsingPageLoadTime@4c12331b]" started-at="2025-11-08T20:29:57 IST" name="setup" finished-at="2025-11-08T20:29:59 IST" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="measurePageLoadTime()[pri:0, instance:keralaTourismAutomationPlaywrightJava.PerformanceTestUsingPageLoadTime@4c12331b]" started-at="2025-11-08T20:29:59 IST" name="measurePageLoadTime" finished-at="2025-11-08T20:30:02 IST" duration-ms="2989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- measurePageLoadTime -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:keralaTourismAutomationPlaywrightJava.PerformanceTestUsingPageLoadTime@4c12331b]" started-at="2025-11-08T20:30:02 IST" name="tearDown" finished-at="2025-11-08T20:30:02 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- keralaTourismAutomationPlaywrightJava.PerformanceTestUsingPageLoadTime -->
+      <class name="keralaTourismAutomationPlaywrightJava.ResponsiveUITesting">
+        <test-method is-config="true" signature="setup()[pri:0, instance:keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@43bc63a3]" started-at="2025-11-08T20:27:33 IST" name="setup" finished-at="2025-11-08T20:27:49 IST" duration-ms="15327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@43bc63a3]" started-at="2025-11-08T20:27:49 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T20:28:00 IST" duration-ms="11179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1920]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Desktop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@43bc63a3]" started-at="2025-11-08T20:28:00 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T20:28:03 IST" duration-ms="2962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1024]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[768]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tablet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@43bc63a3]" started-at="2025-11-08T20:28:03 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T20:28:05 IST" duration-ms="2666" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[375]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[667]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mobile iPhone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@43bc63a3]" started-at="2025-11-08T20:28:05 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T20:28:09 IST" duration-ms="3136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[360]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mobile Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@43bc63a3]" started-at="2025-11-08T20:28:09 IST" name="tearDown" finished-at="2025-11-08T20:28:09 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- keralaTourismAutomationPlaywrightJava.ResponsiveUITesting -->
+      <class name="keralaTourismAutomationPlaywrightJava.BasicSmokeTesting">
+        <test-method is-config="true" signature="setup()[pri:0, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" started-at="2025-11-08T20:28:09 IST" name="setup" finished-at="2025-11-08T20:28:10 IST" duration-ms="1216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HomePageValidation()[pri:0, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" started-at="2025-11-08T20:28:10 IST" name="HomePageValidation" finished-at="2025-11-08T20:28:11 IST" duration-ms="941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageValidation -->
+        <test-method signature="basicNavigationThroughMainMenu()[pri:2, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" started-at="2025-11-08T20:28:11 IST" name="basicNavigationThroughMainMenu" finished-at="2025-11-08T20:28:41 IST" duration-ms="30043" status="FAIL">
+          <exception class="com.microsoft.playwright.TimeoutError">
+            <message>
+              <![CDATA[Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator("nav.navbar a[href='index.html']")
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator("nav.navbar a[href='index.html']")
+
+at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
+at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
+at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:175)
+at com.microsoft.playwright.Locator.click(Locator.java:2493)
+at keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.basicNavigationThroughMainMenu(BasicSmokeTesting.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator("nav.navbar a[href='index.html']")
+
+at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.microsoft.playwright.TimeoutError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicNavigationThroughMainMenu -->
+        <test-method signature="validatingExplorePage()[pri:3, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" started-at="2025-11-08T20:28:41 IST" name="validatingExplorePage" finished-at="2025-11-08T20:28:42 IST" duration-ms="1215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingExplorePage -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" started-at="2025-11-08T20:28:42 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:28:45 IST" duration-ms="2324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[palakkad.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[palakkad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" started-at="2025-11-08T20:28:45 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:28:46 IST" duration-ms="1005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thrissur.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thrissur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" started-at="2025-11-08T20:28:46 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:28:47 IST" duration-ms="1795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malappuram.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[malappuram]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" started-at="2025-11-08T20:28:47 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:28:49 IST" duration-ms="1191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[trivandrum.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Trivandrum]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" started-at="2025-11-08T20:28:49 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:28:55 IST" duration-ms="6280" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kollam.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kollam]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.opentest4j.AssertionFailedError">
+            <message>
+              <![CDATA[Page title expected to be: kollam
+Received: dist-name
+
+Call log:
+  - Locator.expect with timeout 5000ms
+  - waiting for locator(":root")
+    9 × locator resolved to <html lang="en">…</html>
+      - unexpected value "dist-name"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.opentest4j.AssertionFailedError: Page title expected to be: kollam
+Received: dist-name
+
+Call log:
+  - Locator.expect with timeout 5000ms
+  - waiting for locator(":root")
+    9 × locator resolved to <html lang="en">…</html>
+      - unexpected value "dist-name"
+at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:74)
+at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:51)
+at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:42)
+at com.microsoft.playwright.impl.PageAssertionsImpl.hasTitle(PageAssertionsImpl.java:45)
+at com.microsoft.playwright.assertions.PageAssertions.hasTitle(PageAssertions.java:103)
+at keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.validateIndividualDistrictPages(BasicSmokeTesting.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.opentest4j.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" started-at="2025-11-08T20:28:55 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:28:57 IST" duration-ms="2284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kozhikode.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kozhikode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" started-at="2025-11-08T20:28:57 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:28:59 IST" duration-ms="1410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pathanamthitta.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pathanamthitta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" started-at="2025-11-08T20:28:59 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:29:01 IST" duration-ms="2081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wayanad.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wayanad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" started-at="2025-11-08T20:29:01 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:29:07 IST" duration-ms="6358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alappuzha.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[alappuzha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" started-at="2025-11-08T20:29:07 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:29:09 IST" duration-ms="1480" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kannur.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kannur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" started-at="2025-11-08T20:29:09 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:29:11 IST" duration-ms="2321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kottayam.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kottayam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" started-at="2025-11-08T20:29:11 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:29:12 IST" duration-ms="1456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iduki.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Iduki]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" started-at="2025-11-08T20:29:12 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:29:15 IST" duration-ms="2183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ernakulam.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ernakulam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" started-at="2025-11-08T20:29:15 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:29:17 IST" duration-ms="2258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kasargod.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kasargod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validatingLoginPage()[pri:5, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" started-at="2025-11-08T20:29:17 IST" name="validatingLoginPage" finished-at="2025-11-08T20:29:18 IST" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingLoginPage -->
+        <test-method signature="validatingSignupPage()[pri:5, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" started-at="2025-11-08T20:29:18 IST" name="validatingSignupPage" finished-at="2025-11-08T20:29:18 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingSignupPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@2d1ef81a]" started-at="2025-11-08T20:29:18 IST" name="tearDown" finished-at="2025-11-08T20:29:18 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- keralaTourismAutomationPlaywrightJava.BasicSmokeTesting -->
+    </test> <!-- SmokeTest with firefox -->
+    <test started-at="2025-11-08T20:30:02 IST" name="SmokeTest with chrome" finished-at="2025-11-08T20:32:04 IST" duration-ms="122163">
+      <class name="keralaTourismAutomationPlaywrightJava.FormValidationRefactored">
+        <test-method is-config="true" signature="setup()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" started-at="2025-11-08T20:31:52 IST" name="setup" finished-at="2025-11-08T20:31:53 IST" duration-ms="1392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginBothEmptyFields()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" started-at="2025-11-08T20:31:53 IST" name="loginBothEmptyFields" finished-at="2025-11-08T20:31:58 IST" duration-ms="5294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBothEmptyFields -->
+        <test-method signature="loginEmptyEmail()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" started-at="2025-11-08T20:31:58 IST" name="loginEmptyEmail" finished-at="2025-11-08T20:31:58 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEmptyEmail -->
+        <test-method signature="loginEmptyPassword()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" started-at="2025-11-08T20:31:58 IST" name="loginEmptyPassword" finished-at="2025-11-08T20:31:59 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEmptyPassword -->
+        <test-method signature="loginInvalidEmail()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" started-at="2025-11-08T20:31:59 IST" name="loginInvalidEmail" finished-at="2025-11-08T20:31:59 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidEmail -->
+        <test-method signature="loginInvalidPassword()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" started-at="2025-11-08T20:31:59 IST" name="loginInvalidPassword" finished-at="2025-11-08T20:31:59 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidPassword -->
+        <test-method signature="signupEmptyEmail()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" started-at="2025-11-08T20:31:59 IST" name="signupEmptyEmail" finished-at="2025-11-08T20:31:59 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupEmptyEmail -->
+        <test-method signature="signupEmptyName()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" started-at="2025-11-08T20:31:59 IST" name="signupEmptyName" finished-at="2025-11-08T20:32:00 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupEmptyName -->
+        <test-method signature="signupEmptyPassword1()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" started-at="2025-11-08T20:32:00 IST" name="signupEmptyPassword1" finished-at="2025-11-08T20:32:00 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupEmptyPassword1 -->
+        <test-method signature="signupEmptyPassword2()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" started-at="2025-11-08T20:32:00 IST" name="signupEmptyPassword2" finished-at="2025-11-08T20:32:00 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupEmptyPassword2 -->
+        <test-method signature="signupPasswordMismatch()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" started-at="2025-11-08T20:32:00 IST" name="signupPasswordMismatch" finished-at="2025-11-08T20:32:00 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupPasswordMismatch -->
+        <test-method signature="validatingLoginForm()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" started-at="2025-11-08T20:32:00 IST" name="validatingLoginForm" finished-at="2025-11-08T20:32:01 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingLoginForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@5e5d171f]" started-at="2025-11-08T20:32:01 IST" name="tearDown" finished-at="2025-11-08T20:32:01 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- keralaTourismAutomationPlaywrightJava.FormValidationRefactored -->
+      <class name="keralaTourismAutomationPlaywrightJava.E2EUserJourney">
+        <test-method is-config="true" signature="setup()[pri:0, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@7770f470]" started-at="2025-11-08T20:31:17 IST" name="setup" finished-at="2025-11-08T20:31:18 IST" duration-ms="1238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@7770f470]" started-at="2025-11-08T20:31:18 IST" name="verifyHomePageTitle" finished-at="2025-11-08T20:31:21 IST" duration-ms="3016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method signature="performSignUp()[pri:2, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@7770f470]" started-at="2025-11-08T20:31:21 IST" name="performSignUp" finished-at="2025-11-08T20:31:51 IST" depends-on-methods="keralaTourismAutomationPlaywrightJava.E2EUserJourney.verifyHomePageTitle" duration-ms="30118" status="FAIL">
+          <exception class="com.microsoft.playwright.TimeoutError">
+            <message>
+              <![CDATA[Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1072:23)
+    at FrameDispatcher.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator("//input[@name='email']")
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1072:23)
+    at FrameDispatcher.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator("//input[@name='email']")
+
+at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+at com.microsoft.playwright.impl.FrameImpl.fillImpl(FrameImpl.java:335)
+at com.microsoft.playwright.impl.FrameImpl.lambda$fill$14(FrameImpl.java:325)
+at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+at com.microsoft.playwright.impl.FrameImpl.fill(FrameImpl.java:325)
+at com.microsoft.playwright.impl.LocatorImpl.fill(LocatorImpl.java:250)
+at com.microsoft.playwright.Locator.fill(Locator.java:3075)
+at keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp(E2EUserJourney.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1072:23)
+    at FrameDispatcher.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator("//input[@name='email']")
+
+at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.microsoft.playwright.TimeoutError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performSignUp -->
+        <test-method signature="exploreDistricts()[pri:3, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@7770f470]" started-at="2025-11-08T20:31:51 IST" name="exploreDistricts" finished-at="2025-11-08T20:31:51 IST" depends-on-methods="keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method keralaTourismAutomationPlaywrightJava.E2EUserJourney.exploreDistricts() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@7770f470 depends on not successfully finished methods 
+[keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@7770f470]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method keralaTourismAutomationPlaywrightJava.E2EUserJourney.exploreDistricts() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@7770f470 depends on not successfully finished methods 
+[keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@7770f470]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exploreDistricts -->
+        <test-method signature="performLogin()[pri:3, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@7770f470]" started-at="2025-11-08T20:31:51 IST" name="performLogin" finished-at="2025-11-08T20:31:51 IST" depends-on-methods="keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method keralaTourismAutomationPlaywrightJava.E2EUserJourney.performLogin() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@7770f470 depends on not successfully finished methods 
+[keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@7770f470]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method keralaTourismAutomationPlaywrightJava.E2EUserJourney.performLogin() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@7770f470 depends on not successfully finished methods 
+[keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@7770f470]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@7770f470]" started-at="2025-11-08T20:31:51 IST" name="tearDown" finished-at="2025-11-08T20:31:52 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- keralaTourismAutomationPlaywrightJava.E2EUserJourney -->
+      <class name="keralaTourismAutomationPlaywrightJava.PerformanceTestUsingPageLoadTime">
+        <test-method is-config="true" signature="setup()[pri:0, instance:keralaTourismAutomationPlaywrightJava.PerformanceTestUsingPageLoadTime@24313fcc]" started-at="2025-11-08T20:32:01 IST" name="setup" finished-at="2025-11-08T20:32:02 IST" duration-ms="1325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="measurePageLoadTime()[pri:0, instance:keralaTourismAutomationPlaywrightJava.PerformanceTestUsingPageLoadTime@24313fcc]" started-at="2025-11-08T20:32:02 IST" name="measurePageLoadTime" finished-at="2025-11-08T20:32:04 IST" duration-ms="1593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- measurePageLoadTime -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:keralaTourismAutomationPlaywrightJava.PerformanceTestUsingPageLoadTime@24313fcc]" started-at="2025-11-08T20:32:04 IST" name="tearDown" finished-at="2025-11-08T20:32:04 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- keralaTourismAutomationPlaywrightJava.PerformanceTestUsingPageLoadTime -->
+      <class name="keralaTourismAutomationPlaywrightJava.ResponsiveUITesting">
+        <test-method is-config="true" signature="setup()[pri:0, instance:keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@247bddad]" started-at="2025-11-08T20:30:02 IST" name="setup" finished-at="2025-11-08T20:30:03 IST" duration-ms="1352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@247bddad]" started-at="2025-11-08T20:30:03 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T20:30:07 IST" duration-ms="3510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1920]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Desktop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@247bddad]" started-at="2025-11-08T20:30:07 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T20:30:10 IST" duration-ms="2730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1024]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[768]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tablet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@247bddad]" started-at="2025-11-08T20:30:10 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T20:30:12 IST" duration-ms="2829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[375]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[667]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mobile iPhone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@247bddad]" started-at="2025-11-08T20:30:12 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T20:30:15 IST" duration-ms="2688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[360]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mobile Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@247bddad]" started-at="2025-11-08T20:30:15 IST" name="tearDown" finished-at="2025-11-08T20:30:15 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- keralaTourismAutomationPlaywrightJava.ResponsiveUITesting -->
+      <class name="keralaTourismAutomationPlaywrightJava.BasicSmokeTesting">
+        <test-method is-config="true" signature="setup()[pri:0, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" started-at="2025-11-08T20:30:15 IST" name="setup" finished-at="2025-11-08T20:30:17 IST" duration-ms="1251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HomePageValidation()[pri:0, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" started-at="2025-11-08T20:30:17 IST" name="HomePageValidation" finished-at="2025-11-08T20:30:18 IST" duration-ms="1688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageValidation -->
+        <test-method signature="basicNavigationThroughMainMenu()[pri:2, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" started-at="2025-11-08T20:30:18 IST" name="basicNavigationThroughMainMenu" finished-at="2025-11-08T20:30:48 IST" duration-ms="30040" status="FAIL">
+          <exception class="com.microsoft.playwright.TimeoutError">
+            <message>
+              <![CDATA[Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator("nav.navbar a[href='index.html']")
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator("nav.navbar a[href='index.html']")
+
+at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
+at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
+at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:175)
+at com.microsoft.playwright.Locator.click(Locator.java:2493)
+at keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.basicNavigationThroughMainMenu(BasicSmokeTesting.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator("nav.navbar a[href='index.html']")
+
+at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.microsoft.playwright.TimeoutError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicNavigationThroughMainMenu -->
+        <test-method signature="validatingExplorePage()[pri:3, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" started-at="2025-11-08T20:30:48 IST" name="validatingExplorePage" finished-at="2025-11-08T20:30:49 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingExplorePage -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" started-at="2025-11-08T20:30:49 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:30:53 IST" duration-ms="3741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[palakkad.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[palakkad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" started-at="2025-11-08T20:30:53 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:30:54 IST" duration-ms="1413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thrissur.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thrissur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" started-at="2025-11-08T20:30:54 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:30:55 IST" duration-ms="1044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malappuram.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[malappuram]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" started-at="2025-11-08T20:30:55 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:30:56 IST" duration-ms="1220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[trivandrum.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Trivandrum]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" started-at="2025-11-08T20:30:56 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:31:03 IST" duration-ms="6570" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kollam.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kollam]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.opentest4j.AssertionFailedError">
+            <message>
+              <![CDATA[Page title expected to be: kollam
+Received: dist-name
+
+Call log:
+  - Locator.expect with timeout 5000ms
+  - waiting for locator(":root")
+    9 × locator resolved to <html lang="en">…</html>
+      - unexpected value "dist-name"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.opentest4j.AssertionFailedError: Page title expected to be: kollam
+Received: dist-name
+
+Call log:
+  - Locator.expect with timeout 5000ms
+  - waiting for locator(":root")
+    9 × locator resolved to <html lang="en">…</html>
+      - unexpected value "dist-name"
+at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:74)
+at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:51)
+at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:42)
+at com.microsoft.playwright.impl.PageAssertionsImpl.hasTitle(PageAssertionsImpl.java:45)
+at com.microsoft.playwright.assertions.PageAssertions.hasTitle(PageAssertions.java:103)
+at keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.validateIndividualDistrictPages(BasicSmokeTesting.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.opentest4j.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" started-at="2025-11-08T20:31:03 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:31:04 IST" duration-ms="1561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kozhikode.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kozhikode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" started-at="2025-11-08T20:31:04 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:31:05 IST" duration-ms="1110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pathanamthitta.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pathanamthitta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" started-at="2025-11-08T20:31:05 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:31:07 IST" duration-ms="1692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wayanad.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wayanad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" started-at="2025-11-08T20:31:07 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:31:09 IST" duration-ms="2249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alappuzha.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[alappuzha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" started-at="2025-11-08T20:31:09 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:31:10 IST" duration-ms="807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kannur.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kannur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" started-at="2025-11-08T20:31:10 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:31:12 IST" duration-ms="1622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kottayam.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kottayam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" started-at="2025-11-08T20:31:12 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:31:13 IST" duration-ms="1454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iduki.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Iduki]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" started-at="2025-11-08T20:31:13 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:31:15 IST" duration-ms="1421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ernakulam.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ernakulam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" started-at="2025-11-08T20:31:15 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:31:16 IST" duration-ms="1564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kasargod.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kasargod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validatingLoginPage()[pri:5, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" started-at="2025-11-08T20:31:16 IST" name="validatingLoginPage" finished-at="2025-11-08T20:31:16 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingLoginPage -->
+        <test-method signature="validatingSignupPage()[pri:5, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" started-at="2025-11-08T20:31:16 IST" name="validatingSignupPage" finished-at="2025-11-08T20:31:17 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingSignupPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@d35dea7]" started-at="2025-11-08T20:31:17 IST" name="tearDown" finished-at="2025-11-08T20:31:17 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- keralaTourismAutomationPlaywrightJava.BasicSmokeTesting -->
+    </test> <!-- SmokeTest with chrome -->
+    <test started-at="2025-11-08T20:32:04 IST" name="SmokeTest with webkit" finished-at="2025-11-08T20:34:10 IST" duration-ms="125559">
+      <class name="keralaTourismAutomationPlaywrightJava.FormValidationRefactored">
+        <test-method is-config="true" signature="setup()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" started-at="2025-11-08T20:33:59 IST" name="setup" finished-at="2025-11-08T20:34:00 IST" duration-ms="1389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginBothEmptyFields()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" started-at="2025-11-08T20:34:00 IST" name="loginBothEmptyFields" finished-at="2025-11-08T20:34:02 IST" duration-ms="1436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBothEmptyFields -->
+        <test-method signature="loginEmptyEmail()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" started-at="2025-11-08T20:34:02 IST" name="loginEmptyEmail" finished-at="2025-11-08T20:34:02 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEmptyEmail -->
+        <test-method signature="loginEmptyPassword()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" started-at="2025-11-08T20:34:02 IST" name="loginEmptyPassword" finished-at="2025-11-08T20:34:02 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEmptyPassword -->
+        <test-method signature="loginInvalidEmail()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" started-at="2025-11-08T20:34:02 IST" name="loginInvalidEmail" finished-at="2025-11-08T20:34:03 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidEmail -->
+        <test-method signature="loginInvalidPassword()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" started-at="2025-11-08T20:34:03 IST" name="loginInvalidPassword" finished-at="2025-11-08T20:34:03 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidPassword -->
+        <test-method signature="signupEmptyEmail()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" started-at="2025-11-08T20:34:03 IST" name="signupEmptyEmail" finished-at="2025-11-08T20:34:03 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupEmptyEmail -->
+        <test-method signature="signupEmptyName()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" started-at="2025-11-08T20:34:03 IST" name="signupEmptyName" finished-at="2025-11-08T20:34:03 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupEmptyName -->
+        <test-method signature="signupEmptyPassword1()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" started-at="2025-11-08T20:34:03 IST" name="signupEmptyPassword1" finished-at="2025-11-08T20:34:04 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupEmptyPassword1 -->
+        <test-method signature="signupEmptyPassword2()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" started-at="2025-11-08T20:34:04 IST" name="signupEmptyPassword2" finished-at="2025-11-08T20:34:04 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupEmptyPassword2 -->
+        <test-method signature="signupPasswordMismatch()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" started-at="2025-11-08T20:34:04 IST" name="signupPasswordMismatch" finished-at="2025-11-08T20:34:04 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupPasswordMismatch -->
+        <test-method signature="validatingLoginForm()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" started-at="2025-11-08T20:34:04 IST" name="validatingLoginForm" finished-at="2025-11-08T20:34:04 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingLoginForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a]" started-at="2025-11-08T20:34:04 IST" name="tearDown" finished-at="2025-11-08T20:34:05 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- keralaTourismAutomationPlaywrightJava.FormValidationRefactored -->
+      <class name="keralaTourismAutomationPlaywrightJava.E2EUserJourney">
+        <test-method is-config="true" signature="setup()[pri:0, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c]" started-at="2025-11-08T20:33:25 IST" name="setup" finished-at="2025-11-08T20:33:26 IST" duration-ms="1308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c]" started-at="2025-11-08T20:33:26 IST" name="verifyHomePageTitle" finished-at="2025-11-08T20:33:29 IST" duration-ms="2212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method signature="performSignUp()[pri:2, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c]" started-at="2025-11-08T20:33:29 IST" name="performSignUp" finished-at="2025-11-08T20:33:59 IST" depends-on-methods="keralaTourismAutomationPlaywrightJava.E2EUserJourney.verifyHomePageTitle" duration-ms="30143" status="FAIL">
+          <exception class="com.microsoft.playwright.TimeoutError">
+            <message>
+              <![CDATA[Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1072:23)
+    at FrameDispatcher.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator("//input[@name='email']")
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1072:23)
+    at FrameDispatcher.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator("//input[@name='email']")
+
+at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+at com.microsoft.playwright.impl.FrameImpl.fillImpl(FrameImpl.java:335)
+at com.microsoft.playwright.impl.FrameImpl.lambda$fill$14(FrameImpl.java:325)
+at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+at com.microsoft.playwright.impl.FrameImpl.fill(FrameImpl.java:325)
+at com.microsoft.playwright.impl.LocatorImpl.fill(LocatorImpl.java:250)
+at com.microsoft.playwright.Locator.fill(Locator.java:3075)
+at keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp(E2EUserJourney.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1072:23)
+    at FrameDispatcher.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator("//input[@name='email']")
+
+at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.microsoft.playwright.TimeoutError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performSignUp -->
+        <test-method signature="exploreDistricts()[pri:3, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c]" started-at="2025-11-08T20:33:59 IST" name="exploreDistricts" finished-at="2025-11-08T20:33:59 IST" depends-on-methods="keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method keralaTourismAutomationPlaywrightJava.E2EUserJourney.exploreDistricts() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c depends on not successfully finished methods 
+[keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method keralaTourismAutomationPlaywrightJava.E2EUserJourney.exploreDistricts() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c depends on not successfully finished methods 
+[keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exploreDistricts -->
+        <test-method signature="performLogin()[pri:3, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c]" started-at="2025-11-08T20:33:59 IST" name="performLogin" finished-at="2025-11-08T20:33:59 IST" depends-on-methods="keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method keralaTourismAutomationPlaywrightJava.E2EUserJourney.performLogin() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c depends on not successfully finished methods 
+[keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method keralaTourismAutomationPlaywrightJava.E2EUserJourney.performLogin() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c depends on not successfully finished methods 
+[keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c]" started-at="2025-11-08T20:33:59 IST" name="tearDown" finished-at="2025-11-08T20:33:59 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- keralaTourismAutomationPlaywrightJava.E2EUserJourney -->
+      <class name="keralaTourismAutomationPlaywrightJava.PerformanceTestUsingPageLoadTime">
+        <test-method is-config="true" signature="setup()[pri:0, instance:keralaTourismAutomationPlaywrightJava.PerformanceTestUsingPageLoadTime@131ef10]" started-at="2025-11-08T20:34:05 IST" name="setup" finished-at="2025-11-08T20:34:06 IST" duration-ms="1424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="measurePageLoadTime()[pri:0, instance:keralaTourismAutomationPlaywrightJava.PerformanceTestUsingPageLoadTime@131ef10]" started-at="2025-11-08T20:34:06 IST" name="measurePageLoadTime" finished-at="2025-11-08T20:34:09 IST" duration-ms="3181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- measurePageLoadTime -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:keralaTourismAutomationPlaywrightJava.PerformanceTestUsingPageLoadTime@131ef10]" started-at="2025-11-08T20:34:09 IST" name="tearDown" finished-at="2025-11-08T20:34:10 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- keralaTourismAutomationPlaywrightJava.PerformanceTestUsingPageLoadTime -->
+      <class name="keralaTourismAutomationPlaywrightJava.ResponsiveUITesting">
+        <test-method is-config="true" signature="setup()[pri:0, instance:keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@77f1baf5]" started-at="2025-11-08T20:32:04 IST" name="setup" finished-at="2025-11-08T20:32:05 IST" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@77f1baf5]" started-at="2025-11-08T20:32:05 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T20:32:09 IST" duration-ms="3211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1920]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1080]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Desktop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@77f1baf5]" started-at="2025-11-08T20:32:09 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T20:32:11 IST" duration-ms="2835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1024]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[768]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tablet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@77f1baf5]" started-at="2025-11-08T20:32:11 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T20:32:16 IST" duration-ms="4845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[375]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[667]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mobile iPhone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method signature="verifyResponsiveLayouts(int,int,java.lang.String)[pri:0, instance:keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@77f1baf5]" started-at="2025-11-08T20:32:16 IST" name="verifyResponsiveLayouts" data-provider="screenResolutions" finished-at="2025-11-08T20:32:20 IST" duration-ms="3712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[360]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[800]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mobile Android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponsiveLayouts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@77f1baf5]" started-at="2025-11-08T20:32:20 IST" name="tearDown" finished-at="2025-11-08T20:32:20 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- keralaTourismAutomationPlaywrightJava.ResponsiveUITesting -->
+      <class name="keralaTourismAutomationPlaywrightJava.BasicSmokeTesting">
+        <test-method is-config="true" signature="setup()[pri:0, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" started-at="2025-11-08T20:32:20 IST" name="setup" finished-at="2025-11-08T20:32:22 IST" duration-ms="1239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HomePageValidation()[pri:0, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" started-at="2025-11-08T20:32:22 IST" name="HomePageValidation" finished-at="2025-11-08T20:32:24 IST" duration-ms="2157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageValidation -->
+        <test-method signature="basicNavigationThroughMainMenu()[pri:2, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" started-at="2025-11-08T20:32:24 IST" name="basicNavigationThroughMainMenu" finished-at="2025-11-08T20:32:54 IST" duration-ms="30044" status="FAIL">
+          <exception class="com.microsoft.playwright.TimeoutError">
+            <message>
+              <![CDATA[Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator("nav.navbar a[href='index.html']")
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator("nav.navbar a[href='index.html']")
+
+at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
+at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
+at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:175)
+at com.microsoft.playwright.Locator.click(Locator.java:2493)
+at keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.basicNavigationThroughMainMenu(BasicSmokeTesting.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator("nav.navbar a[href='index.html']")
+
+at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.microsoft.playwright.TimeoutError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicNavigationThroughMainMenu -->
+        <test-method signature="validatingExplorePage()[pri:3, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" started-at="2025-11-08T20:32:54 IST" name="validatingExplorePage" finished-at="2025-11-08T20:32:54 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingExplorePage -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" started-at="2025-11-08T20:32:54 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:32:58 IST" duration-ms="3608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[palakkad.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[palakkad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" started-at="2025-11-08T20:32:58 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:32:59 IST" duration-ms="1420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thrissur.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thrissur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" started-at="2025-11-08T20:32:59 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:33:00 IST" duration-ms="1132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malappuram.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[malappuram]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" started-at="2025-11-08T20:33:00 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:33:01 IST" duration-ms="819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[trivandrum.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Trivandrum]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" started-at="2025-11-08T20:33:01 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:33:08 IST" duration-ms="6536" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kollam.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kollam]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.opentest4j.AssertionFailedError">
+            <message>
+              <![CDATA[Page title expected to be: kollam
+Received: dist-name
+
+Call log:
+  - Locator.expect with timeout 5000ms
+  - waiting for locator(":root")
+    9 × locator resolved to <html lang="en">…</html>
+      - unexpected value "dist-name"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.opentest4j.AssertionFailedError: Page title expected to be: kollam
+Received: dist-name
+
+Call log:
+  - Locator.expect with timeout 5000ms
+  - waiting for locator(":root")
+    9 × locator resolved to <html lang="en">…</html>
+      - unexpected value "dist-name"
+at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:74)
+at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:51)
+at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:42)
+at com.microsoft.playwright.impl.PageAssertionsImpl.hasTitle(PageAssertionsImpl.java:45)
+at com.microsoft.playwright.assertions.PageAssertions.hasTitle(PageAssertions.java:103)
+at keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.validateIndividualDistrictPages(BasicSmokeTesting.java:106)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.opentest4j.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" started-at="2025-11-08T20:33:08 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:33:09 IST" duration-ms="1764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kozhikode.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kozhikode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" started-at="2025-11-08T20:33:09 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:33:11 IST" duration-ms="1296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pathanamthitta.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pathanamthitta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" started-at="2025-11-08T20:33:11 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:33:12 IST" duration-ms="1763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wayanad.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wayanad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" started-at="2025-11-08T20:33:12 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:33:17 IST" duration-ms="4621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alappuzha.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[alappuzha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" started-at="2025-11-08T20:33:17 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:33:18 IST" duration-ms="996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kannur.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kannur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" started-at="2025-11-08T20:33:18 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:33:20 IST" duration-ms="2295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kottayam.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kottayam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" started-at="2025-11-08T20:33:20 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:33:22 IST" duration-ms="1180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iduki.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Iduki]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" started-at="2025-11-08T20:33:22 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:33:23 IST" duration-ms="1519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ernakulam.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ernakulam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validateIndividualDistrictPages(java.lang.String,java.lang.String)[pri:4, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" started-at="2025-11-08T20:33:23 IST" name="validateIndividualDistrictPages" data-provider="districtPages" finished-at="2025-11-08T20:33:24 IST" duration-ms="1353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kasargod.html]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kasargod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateIndividualDistrictPages -->
+        <test-method signature="validatingLoginPage()[pri:5, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" started-at="2025-11-08T20:33:24 IST" name="validatingLoginPage" finished-at="2025-11-08T20:33:25 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingLoginPage -->
+        <test-method signature="validatingSignupPage()[pri:5, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" started-at="2025-11-08T20:33:25 IST" name="validatingSignupPage" finished-at="2025-11-08T20:33:25 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingSignupPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb]" started-at="2025-11-08T20:33:25 IST" name="tearDown" finished-at="2025-11-08T20:33:25 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- keralaTourismAutomationPlaywrightJava.BasicSmokeTesting -->
+    </test> <!-- SmokeTest with webkit -->
+  </suite> <!-- KeralaTourismSuite -->
+</testng-results>

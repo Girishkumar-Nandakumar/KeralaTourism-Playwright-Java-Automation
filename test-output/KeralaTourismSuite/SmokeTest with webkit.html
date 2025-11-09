@@ -1,0 +1,631 @@
+<html>
+<head>
+<title>TestNG:  SmokeTest with webkit</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SmokeTest with webkit</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>34/3/2</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Nov 08 20:32:04 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>125 seconds (125559 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp()'><b>performSignUp</b><br>Test class: keralaTourismAutomationPlaywrightJava.E2EUserJourney</td>
+<td><div><pre>com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 30000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1072:23)
+    at FrameDispatcher.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator(&quot;//input[@name=&apos;email&apos;]&quot;)
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.fillImpl(FrameImpl.java:335)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$fill$14(FrameImpl.java:325)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.fill(FrameImpl.java:325)
+	at com.microsoft.playwright.impl.LocatorImpl.fill(LocatorImpl.java:250)
+	at com.microsoft.playwright.Locator.fill(Locator.java:3075)
+	at keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp(E2EUserJourney.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 30000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1072:23)
+    at FrameDispatcher.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator(&quot;//input[@name=&apos;email&apos;]&quot;)
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 38 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1305486145", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1305486145'><pre>com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 30000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1072:23)
+    at FrameDispatcher.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator(&quot;//input[@name=&apos;email&apos;]&quot;)
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.fillImpl(FrameImpl.java:335)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$fill$14(FrameImpl.java:325)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.fill(FrameImpl.java:325)
+	at com.microsoft.playwright.impl.LocatorImpl.fill(LocatorImpl.java:250)
+	at com.microsoft.playwright.Locator.fill(Locator.java:3075)
+	at keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp(E2EUserJourney.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 30000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1072:23)
+    at FrameDispatcher.fill (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator(&quot;//input[@name=&apos;email&apos;]&quot;)
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 38 more
+</pre></div></td>
+<td>30</td>
+<td>keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.basicNavigationThroughMainMenu()'><b>basicNavigationThroughMainMenu</b><br>Test class: keralaTourismAutomationPlaywrightJava.BasicSmokeTesting</td>
+<td><div><pre>com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 30000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator(&quot;nav.navbar a[href=&apos;index.html&apos;]&quot;)
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:175)
+	at com.microsoft.playwright.Locator.click(Locator.java:2493)
+	at keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.basicNavigationThroughMainMenu(BasicSmokeTesting.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 30000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator(&quot;nav.navbar a[href=&apos;index.html&apos;]&quot;)
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 38 more
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace787361897", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace787361897'><pre>com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 30000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator(&quot;nav.navbar a[href=&apos;index.html&apos;]&quot;)
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+	at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+	at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
+	at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:175)
+	at com.microsoft.playwright.Locator.click(Locator.java:2493)
+	at keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.basicNavigationThroughMainMenu(BasicSmokeTesting.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 30000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\GIRISH\AppData\Local\Temp\playwright-java-12640980121284669566\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+-   - waiting for locator(&quot;nav.navbar a[href=&apos;index.html&apos;]&quot;)
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 38 more
+</pre></div></td>
+<td>30</td>
+<td>keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.validateIndividualDistrictPages()'><b>validateIndividualDistrictPages</b><br>Test class: keralaTourismAutomationPlaywrightJava.BasicSmokeTesting<br>Parameters: kollam.html, kollam</td>
+<td><div><pre>org.opentest4j.AssertionFailedError: Page title expected to be: kollam
+Received: dist-name
+
+Call log:
+  - Locator.expect with timeout 5000ms
+  - waiting for locator(&quot;:root&quot;)
+    9 × locator resolved to &lt;html lang=&quot;en&quot;&gt;…&lt;/html&gt;
+      - unexpected value &quot;dist-name&quot;
+	at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:74)
+	at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:51)
+	at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:42)
+	at com.microsoft.playwright.impl.PageAssertionsImpl.hasTitle(PageAssertionsImpl.java:45)
+	at com.microsoft.playwright.assertions.PageAssertions.hasTitle(PageAssertions.java:103)
+	at keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.validateIndividualDistrictPages(BasicSmokeTesting.java:106)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1301987508", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1301987508'><pre>org.opentest4j.AssertionFailedError: Page title expected to be: kollam
+Received: dist-name
+
+Call log:
+  - Locator.expect with timeout 5000ms
+  - waiting for locator(&quot;:root&quot;)
+    9 × locator resolved to &lt;html lang=&quot;en&quot;&gt;…&lt;/html&gt;
+      - unexpected value &quot;dist-name&quot;
+	at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:74)
+	at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:51)
+	at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:42)
+	at com.microsoft.playwright.impl.PageAssertionsImpl.hasTitle(PageAssertionsImpl.java:45)
+	at com.microsoft.playwright.assertions.PageAssertions.hasTitle(PageAssertions.java:103)
+	at keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.validateIndividualDistrictPages(BasicSmokeTesting.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>6</td>
+<td>keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.validateIndividualDistrictPages()'><b>validateIndividualDistrictPages</b><br>Test class: keralaTourismAutomationPlaywrightJava.BasicSmokeTesting<br>Parameters: iduki.html, Iduki</td>
+<td></td>
+<td>1</td>
+<td>keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.validateIndividualDistrictPages()'><b>validateIndividualDistrictPages</b><br>Test class: keralaTourismAutomationPlaywrightJava.BasicSmokeTesting<br>Parameters: thrissur.html, Thrissur</td>
+<td></td>
+<td>1</td>
+<td>keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.ResponsiveUITesting.verifyResponsiveLayouts()'><b>verifyResponsiveLayouts</b><br>Test class: keralaTourismAutomationPlaywrightJava.ResponsiveUITesting<br>Parameters: 375, 667, Mobile iPhone</td>
+<td></td>
+<td>4</td>
+<td>keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@77f1baf5</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.validateIndividualDistrictPages()'><b>validateIndividualDistrictPages</b><br>Test class: keralaTourismAutomationPlaywrightJava.BasicSmokeTesting<br>Parameters: trivandrum.html, Trivandrum</td>
+<td></td>
+<td>0</td>
+<td>keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.validatingSignupPage()'><b>validatingSignupPage</b><br>Test class: keralaTourismAutomationPlaywrightJava.BasicSmokeTesting</td>
+<td></td>
+<td>0</td>
+<td>keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.FormValidationRefactored.signupEmptyPassword1()'><b>signupEmptyPassword1</b><br>Test class: keralaTourismAutomationPlaywrightJava.FormValidationRefactored</td>
+<td></td>
+<td>0</td>
+<td>keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.FormValidationRefactored.signupEmptyEmail()'><b>signupEmptyEmail</b><br>Test class: keralaTourismAutomationPlaywrightJava.FormValidationRefactored</td>
+<td></td>
+<td>0</td>
+<td>keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.validateIndividualDistrictPages()'><b>validateIndividualDistrictPages</b><br>Test class: keralaTourismAutomationPlaywrightJava.BasicSmokeTesting<br>Parameters: pathanamthitta.html, Pathanamthitta</td>
+<td></td>
+<td>1</td>
+<td>keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.E2EUserJourney.verifyHomePageTitle()'><b>verifyHomePageTitle</b><br>Test class: keralaTourismAutomationPlaywrightJava.E2EUserJourney</td>
+<td></td>
+<td>2</td>
+<td>keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.HomePageValidation()'><b>HomePageValidation</b><br>Test class: keralaTourismAutomationPlaywrightJava.BasicSmokeTesting</td>
+<td></td>
+<td>2</td>
+<td>keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.validateIndividualDistrictPages()'><b>validateIndividualDistrictPages</b><br>Test class: keralaTourismAutomationPlaywrightJava.BasicSmokeTesting<br>Parameters: kasargod.html, Kasargod</td>
+<td></td>
+<td>1</td>
+<td>keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.FormValidationRefactored.validatingLoginForm()'><b>validatingLoginForm</b><br>Test class: keralaTourismAutomationPlaywrightJava.FormValidationRefactored</td>
+<td></td>
+<td>0</td>
+<td>keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.FormValidationRefactored.loginInvalidEmail()'><b>loginInvalidEmail</b><br>Test class: keralaTourismAutomationPlaywrightJava.FormValidationRefactored</td>
+<td></td>
+<td>0</td>
+<td>keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.ResponsiveUITesting.verifyResponsiveLayouts()'><b>verifyResponsiveLayouts</b><br>Test class: keralaTourismAutomationPlaywrightJava.ResponsiveUITesting<br>Parameters: 1920, 1080, Desktop</td>
+<td></td>
+<td>3</td>
+<td>keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@77f1baf5</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.ResponsiveUITesting.verifyResponsiveLayouts()'><b>verifyResponsiveLayouts</b><br>Test class: keralaTourismAutomationPlaywrightJava.ResponsiveUITesting<br>Parameters: 360, 800, Mobile Android</td>
+<td></td>
+<td>3</td>
+<td>keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@77f1baf5</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.validateIndividualDistrictPages()'><b>validateIndividualDistrictPages</b><br>Test class: keralaTourismAutomationPlaywrightJava.BasicSmokeTesting<br>Parameters: malappuram.html, malappuram</td>
+<td></td>
+<td>1</td>
+<td>keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.validatingLoginPage()'><b>validatingLoginPage</b><br>Test class: keralaTourismAutomationPlaywrightJava.BasicSmokeTesting</td>
+<td></td>
+<td>0</td>
+<td>keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.validateIndividualDistrictPages()'><b>validateIndividualDistrictPages</b><br>Test class: keralaTourismAutomationPlaywrightJava.BasicSmokeTesting<br>Parameters: alappuzha.html, alappuzha</td>
+<td></td>
+<td>4</td>
+<td>keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.validateIndividualDistrictPages()'><b>validateIndividualDistrictPages</b><br>Test class: keralaTourismAutomationPlaywrightJava.BasicSmokeTesting<br>Parameters: kozhikode.html, kozhikode</td>
+<td></td>
+<td>1</td>
+<td>keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.validateIndividualDistrictPages()'><b>validateIndividualDistrictPages</b><br>Test class: keralaTourismAutomationPlaywrightJava.BasicSmokeTesting<br>Parameters: wayanad.html, wayanad</td>
+<td></td>
+<td>1</td>
+<td>keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.FormValidationRefactored.loginBothEmptyFields()'><b>loginBothEmptyFields</b><br>Test class: keralaTourismAutomationPlaywrightJava.FormValidationRefactored</td>
+<td></td>
+<td>1</td>
+<td>keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.validateIndividualDistrictPages()'><b>validateIndividualDistrictPages</b><br>Test class: keralaTourismAutomationPlaywrightJava.BasicSmokeTesting<br>Parameters: kottayam.html, kottayam</td>
+<td></td>
+<td>2</td>
+<td>keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.validateIndividualDistrictPages()'><b>validateIndividualDistrictPages</b><br>Test class: keralaTourismAutomationPlaywrightJava.BasicSmokeTesting<br>Parameters: ernakulam.html, ernakulam</td>
+<td></td>
+<td>1</td>
+<td>keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.FormValidationRefactored.loginEmptyEmail()'><b>loginEmptyEmail</b><br>Test class: keralaTourismAutomationPlaywrightJava.FormValidationRefactored</td>
+<td></td>
+<td>0</td>
+<td>keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.FormValidationRefactored.signupEmptyName()'><b>signupEmptyName</b><br>Test class: keralaTourismAutomationPlaywrightJava.FormValidationRefactored</td>
+<td></td>
+<td>0</td>
+<td>keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.validateIndividualDistrictPages()'><b>validateIndividualDistrictPages</b><br>Test class: keralaTourismAutomationPlaywrightJava.BasicSmokeTesting<br>Parameters: palakkad.html, palakkad</td>
+<td></td>
+<td>3</td>
+<td>keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.ResponsiveUITesting.verifyResponsiveLayouts()'><b>verifyResponsiveLayouts</b><br>Test class: keralaTourismAutomationPlaywrightJava.ResponsiveUITesting<br>Parameters: 1024, 768, Tablet</td>
+<td></td>
+<td>2</td>
+<td>keralaTourismAutomationPlaywrightJava.ResponsiveUITesting@77f1baf5</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.validatingExplorePage()'><b>validatingExplorePage</b><br>Test class: keralaTourismAutomationPlaywrightJava.BasicSmokeTesting</td>
+<td></td>
+<td>0</td>
+<td>keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.FormValidationRefactored.signupEmptyPassword2()'><b>signupEmptyPassword2</b><br>Test class: keralaTourismAutomationPlaywrightJava.FormValidationRefactored</td>
+<td></td>
+<td>0</td>
+<td>keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.PerformanceTestUsingPageLoadTime.measurePageLoadTime()'><b>measurePageLoadTime</b><br>Test class: keralaTourismAutomationPlaywrightJava.PerformanceTestUsingPageLoadTime</td>
+<td></td>
+<td>3</td>
+<td>keralaTourismAutomationPlaywrightJava.PerformanceTestUsingPageLoadTime@131ef10</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.FormValidationRefactored.signupPasswordMismatch()'><b>signupPasswordMismatch</b><br>Test class: keralaTourismAutomationPlaywrightJava.FormValidationRefactored</td>
+<td></td>
+<td>0</td>
+<td>keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.FormValidationRefactored.loginEmptyPassword()'><b>loginEmptyPassword</b><br>Test class: keralaTourismAutomationPlaywrightJava.FormValidationRefactored</td>
+<td></td>
+<td>0</td>
+<td>keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.BasicSmokeTesting.validateIndividualDistrictPages()'><b>validateIndividualDistrictPages</b><br>Test class: keralaTourismAutomationPlaywrightJava.BasicSmokeTesting<br>Parameters: kannur.html, Kannur</td>
+<td></td>
+<td>0</td>
+<td>keralaTourismAutomationPlaywrightJava.BasicSmokeTesting@41a2befb</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.FormValidationRefactored.loginInvalidPassword()'><b>loginInvalidPassword</b><br>Test class: keralaTourismAutomationPlaywrightJava.FormValidationRefactored</td>
+<td></td>
+<td>0</td>
+<td>keralaTourismAutomationPlaywrightJava.FormValidationRefactored@7bedc48a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.E2EUserJourney.exploreDistricts()'><b>exploreDistricts</b><br>Test class: keralaTourismAutomationPlaywrightJava.E2EUserJourney</td>
+<td><div><pre>java.lang.Throwable: Method keralaTourismAutomationPlaywrightJava.E2EUserJourney.exploreDistricts() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c depends on not successfully finished methods 
+[keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2048537720", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2048537720'><pre>java.lang.Throwable: Method keralaTourismAutomationPlaywrightJava.E2EUserJourney.exploreDistricts() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c depends on not successfully finished methods 
+[keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c</td></tr>
+<tr>
+<td title='keralaTourismAutomationPlaywrightJava.E2EUserJourney.performLogin()'><b>performLogin</b><br>Test class: keralaTourismAutomationPlaywrightJava.E2EUserJourney</td>
+<td><div><pre>java.lang.Throwable: Method keralaTourismAutomationPlaywrightJava.E2EUserJourney.performLogin() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c depends on not successfully finished methods 
+[keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace90045638", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace90045638'><pre>java.lang.Throwable: Method keralaTourismAutomationPlaywrightJava.E2EUserJourney.performLogin() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c depends on not successfully finished methods 
+[keralaTourismAutomationPlaywrightJava.E2EUserJourney.performSignUp() on instance keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>keralaTourismAutomationPlaywrightJava.E2EUserJourney@6c40365c</td></tr>
+</table><p>
+</body>
+</html>
