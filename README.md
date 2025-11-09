@@ -1,131 +1,130 @@
-🎓 Kerala Tourism Web Application – Playwright Java Automation
-🎯 Objective
+🎓 Software Testing Capstone Project: Kerala Tourism Web Application  
+----------------------------------------------------------------------
 
-To validate the functional, UI, performance, and cross-browser behavior of the Kerala Tourism Website using Playwright with Java.
-This capstone project showcases end-to-end automation testing aligned with IEEE 829 and ISO/IEC/IEEE 29119 standards.
+🎯  Objective   
+To validate the  functional, performance, security, and accessibility  aspects of the Kerala Tourism Website using modern QA methodologies and automation tools.
 
-🌐 Live Website
+---
 
-🔗 Kerala Tourism Website
+✨ Project Highlights  
+-------------------------
+- Full-cycle QA implementation — from manual to automation.
+- Multi-tool integration:  Selenium, Selenide, Playwright, JMeter, OWASP ZAP, Lighthouse .  
+- Covers  Functional, Security, Performance, and Accessibility  testing.  
+- Structured reports and dashboards aligned with  IEEE 829  &  ISO/IEC/IEEE 29119  standards.
 
-✨ Project Overview
+---
 
-This project demonstrates a comprehensive QA implementation for a static tourism website promoting Kerala’s culture and districts.
-It includes both manual and automated testing, focusing on functional accuracy, form validation, and UI responsiveness.
+🌟 Project Overview
+-------------------------
+This project demonstrates a  comprehensive end-to-end testing suite  for the *Kerala Tourism Website* hosted on GitHub Pages.  
+The goal was to assess the website’s  functionality, responsiveness, security posture, and performance stability  while building a  reusable, professional-grade test automation framework  in Java.  
 
-The automation framework is built with Playwright Java, following the Page Object Model (POM) design for maintainability and scalability.
+It represents a  full Software Testing Life Cycle (STLC)  — from  test planning, execution, automation scripting, and reporting , to  defect tracking, RCA, and final recommendations .
 
-🧠 Key Features
+---
 
-✅ Functional, regression, and cross-browser testing
+🔗  Live Site:   
+[https://hashirakb.github.io/Kerala-Tourism-Website/index.html](https://hashirakb.github.io/Kerala-Tourism-Website/index.html)
 
-⚙️ Playwright-based modern automation with Java
+---
 
-🔁 Parallel test execution using TestNG
+🛠️  Tech Stack & Frameworks 
+-------------------------------
+| Category | Tools & Technologies | Description |
+|-----------|---------------------|--------------|
+|  UI Automation  | Selenium WebDriver (Java) | Core framework for web UI automation and cross-browser testing. |
+|  Advanced Automation  | Playwright (Java), Selenide | Simplified test syntax, fast execution, and BDD-style flows. |
+|  Performance Testing  | Apache JMeter | Simulated load, spike, soak, and stress scenarios. |
+|  Security Testing  | OWASP ZAP | Detected XSS, insecure headers, and input validation gaps. |
+|  Accessibility Testing  | Lighthouse, PowerMapper | WCAG 2.1 compliance and usability validation. |
+|  Framework Design  | Page Object Model (POM) | Code modularity, maintainability, and scalability. |
+|  Build Tool  | Maven | Dependency management and automated test execution. |
+|  Test Runner  | TestNG | Test grouping, reporting, and parallel execution. |
+|  Reporting & CI/CD  | TestNG HTML Reports, GitHub Actions | Automated test runs with visual reports. |
 
-📷 Auto-screenshot capture on test failures
+---
 
-📈 CI/CD-ready with GitHub Actions
+🔍  Testing Scope 
+---------------------
+✅ Manual Testing  
+- Functional validation of navigation, login, signup, and form behavior.  
+- UI/UX inspection and defect classification by severity.  
+- Cross-browser validation (Chrome, Edge, Firefox).  
 
-🔍 Trace Viewer for debugging
+🤖 Automation Testing  
+- Selenium + TestNG framework built from scratch.  
+- End-to-end workflows and negative test validation.  
+- Screenshot capture and logging on test failure.  
 
-📱 Responsive layout testing (Desktop, Tablet, Mobile)
+⚙️ Performance Testing  
+- Conducted  Load, Stress, Spike, and Soak  tests using Apache JMeter.  
+- Simulated up to  5000 virtual users ; analyzed throughput and response trends.  
 
-🛠️ Tech Stack
-Category	Tools & Technologies
-Automation Framework	Playwright for Java
-Programming Language	Java (JDK 17+)
-Test Runner	TestNG
-Build Tool	Maven
-Reports	Allure / TestNG HTML
-Version Control	Git & GitHub
-CI/CD Integration	GitHub Actions (Demo)
-🧩 Test Coverage
-Area	Description
-🧭 Functional	Navigation, Login, Signup, Explore pages
-🧩 UI/UX	Layout, responsiveness, image loading
-🔐 Security	Input sanitization & form validation
-🌍 Cross-Browser	Chromium, Firefox, WebKit
-⚙️ Performance	Page load validation & trace review
-⚙️ Setup & Execution
-1️⃣ Prerequisites
+🔐 Security Testing  
+- Automated scanning using  OWASP ZAP .  
+- Identified  XSS injection  and missing HTTP headers (CSP, X-Frame-Options).  
+- Verified that no critical data exposure or session misconfigurations exist.  
 
-Install JDK 17+
+♿ Accessibility Testing  
+- Evaluated with  Lighthouse  and  PowerMapper .  
+- Accessibility score:  88/100  — issues found with color contrast and missing alt text.  
 
-Install Maven
+---
 
-Install Playwright CLI:
-
-mvn exec:java -e -Dexec.mainClass="com.microsoft.playwright.CLI" -Dexec.args="install"
-
-2️⃣ Clone Repository
-git clone https://github.com/yourusername/KeralaTourism-Playwright-Java-Automation.git
-cd KeralaTourism-Playwright-Java-Automation
-
-3️⃣ Run Tests
-mvn clean test
+📊  Reports & Dashboards 
+----------------------------
+📋 [ Test Plan ](https://docs.google.com/document/d/1UEY3QI7qskxgO_O_Ry-Na7VnFVHYHj_xNUlSU7SbW3E/edit?usp=sharing)  
+✅ [ Test Case Sheet ](https://docs.google.com/spreadsheets/d/1gCU6TnXUrAq_UiRaJxfTvlYT4EUX6eQxNtj7weCuuVk/edit?usp=sharing)  
+🐞 [ Defect Summary Table ](https://docs.google.com/spreadsheets/d/1hntA0ejt7Yn6afpqvTxt5nI4P8xV7kCzHtyFrjE-1A0/edit?usp=sharing)  
 
 
-Run with a specific browser:
 
-mvn test -Dbrowser=firefox
+---
 
+🚀 Getting Started
+-----------------------
+Prerequisites  
+- Java Development Kit (JDK 17 or higher)  
+- Maven installed and configured  
+- ChromeDriver / GeckoDriver / EdgeDriver installed  
+- IDE: IntelliJ IDEA or Eclipse  
 
-To view trace:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+🧠 Key Learnings
+-----------------
+Integration of multiple QA tools within one cohesive framework.
 
-playwright show-trace trace.zip
+Strengthened understanding of STLC, defect life cycle, and test metrics.
 
-📊 Reports & Dashboards
-Type	Link
-📋 Test Plan	View Document
+Mastered synchronization, waits, and modular scripting in Selenium.
 
-✅ Test Cases	View Spreadsheet
+Gained real-world exposure to JMeter, OWASP ZAP, and Accessibility tools.
 
-🐞 Defect Report	View Defect Sheet
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+💡 Recommendations
+-------------------
+Implement input sanitization (OWASP ESAPI) to prevent XSS.
 
-📊 Performance & Security Reports
+Add CAPTCHA on forms to prevent spam or automation misuse.
 
-Load/Stress testing using JMeter
+Enable lazy loading and GZIP compression for faster performance.
 
-OWASP ZAP scan for XSS & form vulnerabilities
+Add CSP and X-Frame-Options headers to enhance security.
 
-Accessibility Audit via Lighthouse
-
-🔒 Security & Accessibility Findings
-
-❗ XSS prevention recommended in signup form
-
-🧩 Missing headers: CSP, X-Frame-Options
-
-🔑 No CAPTCHA in form validation
-
-♿ Alt text and ARIA roles missing for some elements
-
-🟢 No high-severity vulnerabilities detected; medium and low issues documented.
-
-💡 Key Learnings
-
-Built multi-browser automation using Playwright
-
-Improved debugging with Trace Viewer
-
-Learned differences between Selenium, Selenide, and Playwright
-
-Designed modular, maintainable POM structure
-
-Integrated testing documentation as per IEEE 829
+Improve ARIA roles and color contrast for accessibility compliance.
 
 🙌 Acknowledgments
+-------------------
+Special thanks to Shri. Sheena Rajan, our mentor and guide, for her invaluable support and mentorship.
+Heartfelt gratitude to the open-source QA community for providing tools, frameworks, and shared learning resources.
 
-Special thanks to Ms. Sheena Rajan
-for her invaluable mentorship, guidance, and support throughout this capstone journey.
-Gratitude to the open-source testing community for the tools and knowledge shared.
+🏆 Project Outcome & Takeaways
+-------------------------------
+📌 Successfully validated functional, performance, and security aspects of a live website.
+📌 Built a professional automation framework in Selenium with reusable architecture.
+📌 Demonstrated cross-tool proficiency across functional, performance, and security domains.
+📌 Developed reporting and metric analysis capabilities aligned with IEEE documentation standards.
+📌 Strengthened readiness for real-world QA projects and CI/CD environments.
 
-🏆 Outcome
-
-📌 Delivered full-cycle automation suite using modern QA stack
-📌 Strengthened real-world QA documentation and reporting skills
-📌 Demonstrated industry-level understanding of testing tools and processes
-
-⭐ If you found this project helpful — please give it a star on GitHub!
-It motivates us to keep building and sharing better projects 🌿
+⭐ If you found this project inspiring or helpful — please give it a star on GitHub! 🌟
